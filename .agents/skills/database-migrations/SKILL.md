@@ -1,4 +1,7 @@
-# Database Migrations
+---
+name: database-migrations
+description: Database migrations — the steps for every schema change, and the fix when `npm run db:seed` fails to start.
+---
 
 The database is **disposable**. `data.db` is gitignored and holds nothing but seed data, so every schema change is free: migrate, throw the file away, reseed from scratch.
 
